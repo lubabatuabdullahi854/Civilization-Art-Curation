@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/artwork-submission.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.collaboration]
+path = 'contracts/collaboration.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
