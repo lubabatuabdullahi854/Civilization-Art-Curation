@@ -11,3 +11,5 @@ K
 tests/collaboration.test.ts,f/4/f4106f4fac218c068ff21006018a1371cf66c19e
 I
 contracts/exhibition.clar,0/f/0fcf04462f70adc091c29f8eb716f1d25071b0b0
+H
+tests/exhibition.test.ts,6/c/6cb16985497f7b0c0ef2a91ea2307637c0272b4e
