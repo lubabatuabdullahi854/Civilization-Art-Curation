@@ -1,0 +1,29 @@
+[project]
+name = 'Civilization-Art-Curation'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.artwork-submission]
+path = 'contracts/artwork-submission.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.collaboration]
+path = 'contracts/collaboration.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.exhibition]
+path = 'contracts/exhibition.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
